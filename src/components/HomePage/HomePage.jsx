@@ -2,7 +2,7 @@ import React, { useEffect, useState, useRef } from "react";
 import SockJS from "sockjs-client";
 import Stomp from "stompjs";
 import { useDispatch, useSelector } from "react-redux";
-import { currentUser, searchUser } from "../../Redux/Auth/Action";
+import { currentUser, searchUser } from "../../Redux/Auth/Action"; 
 import { createSingleChat, getAllChat } from "../../Redux/Chat/Action";
 import { createNewMessage, getAllMessage } from "../../Redux/Message/Action";
 import { useNavigate } from "react-router-dom";
